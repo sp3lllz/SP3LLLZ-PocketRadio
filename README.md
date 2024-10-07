@@ -1,9 +1,6 @@
 # FM Pocket Radio with RDS
-PocketRadio is an ATtiny402/412 controlled FM radio with RDS (RDA5807MP), an integrated audio amplifier (TC8871 or XPT8871), a LiPo battery charger (MCP73831 or TP4054), an OLED display (SSD1306) and three buttons. You can directly connect a protected 3.7V LiPo battery, a 3W / 4Ω speaker and an FM antenna.
-
-- Project Video (YouTube): https://youtu.be/-taygMlm8Ls
-- Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny412-pocket-radio
-- Review on Megazoid's Hut (YouTube): https://youtu.be/HVwsa0pgvS4
+PocketRadio is an ATtiny402/412 controlled FM radio with RDS (RDA5807MP), an integrated audio amplifier (LM386N-4), a LiPo battery charger (MCP73831 or TP4054), an OLED display (SSD1306) and three buttons. You can directly connect a protected 3.7V LiPo battery, a 3W / 4Ω speaker and an FM antenna.
+The project can be hand soldered with basic to intermediate skill as surface mount components have been kept to a minimum. 
 
 ![pic2.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
@@ -100,5 +97,8 @@ The size of the battery also affects the size of the radio. In operation, the ra
 # License
 ![license.png](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
+
 This work is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License. 
 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+This project is based on an orginal Pocket Radio by [wagiminatior](https://github.com/wagiminator/ATtiny412-PocketRadio)
