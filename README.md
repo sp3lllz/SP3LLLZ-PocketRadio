@@ -5,11 +5,11 @@ PocketRadio is an ATtiny402/412 controlled FM radio with RDS (RDA5807MP), an int
 - Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny412-pocket-radio
 - Review on Megazoid's Hut (YouTube): https://youtu.be/HVwsa0pgvS4
 
-![pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic2.jpg)
+![pic2.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 # Hardware
 ## Schematic
-![wiring.png](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_wiring.png)
+![wiring.png](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/PocketRadio_wiring_updated.png?raw=true)
 
 ## RDA5807MP FM Radio Tuner IC
 The low-cost RDA5807MP is a single-chip broadcast FM stereo radio tuner with fully integrated synthesizer, IF selectivity, RDS/RBDS and MPX decoder. The tuner uses the CMOS process, support multi-interface and require the least external component. All these make it very suitable for portable devices. The RDA5807MP is controlled by the ATtiny via I²C.
@@ -24,7 +24,7 @@ For battery charging the MCP73831 is used. The MCP73831 is a highly advanced lin
 ## ME6209 Voltage Regulator
 The ME6209A33 is a 3.3V positive voltage output, three–pin regulator, that provides a high current (up to 250mA) even when the input/output voltage differential is small. Low power consumption (3µA) and high accuracy (+/-2%) is achieved through CMOS technology. It allows input voltages as high as 18V with a dropout voltage around 80mV@40mA.
 
-![pic6.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic6.jpg)
+![pic6.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 # Software
 ## Controlling the RDA5807
@@ -55,24 +55,24 @@ The FM tuner IC RDA5807MP is controlled via I²C by the ATtiny. It has six writa
 # Building Instructions
 Solder all components to the PCB. Place the 40mm speaker in the corresponding cutout on the board. Glue the speaker in place with hot glue. Make sure that the glue is airtight all around to achieve good sound quality. Solder the connection cables between speaker and board. Solder the wire antenna to the corresponding pad on the board. A 75cm (30" = λ / 4) long 28AWG flexible silicone insulated wire works very well.
 
-![pic7.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic7.jpg)
+![pic7.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 3D print the case. Cases with different heights are available in the "3dprint" folder. Choose the case that matches the height of your battery and speaker. Glue the battery into the case with double-sided tape. Thread the wire antenna through the small hole in the housing. To improve the sound quality, you can pack a foam mat between the battery and the PCB inside the case. This should fit snugly against the outer walls of the housing.
 
-![pic8.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic8.jpg)
+![pic8.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 Connect the battery to the JST connector on the board. Pay attention to the correct polarity, unfortunately there is no standard here! At the latest now you should upload the firmware (see above). Use the UPDI pads on the board for this. Place the board on the case and screw it with four M2x5mm self-tapping screws.
 
-![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic4.jpg)
+![pic4.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 There are different loudspeakers with 40mm diameter. The flatter ones allow the radio to be built more compactly, while the taller ones have better sound quality.
 
-![pic9.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic9.jpg)
-![pic10.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic10.jpg)
+![pic9.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
+![pic10.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 The size of the battery also affects the size of the radio. In operation, the radio consumes around 100mA - 125mA at 3.7V and medium volume. So a battery with a capacity of 1200mAh should provide around 10 hours of playtime.
 
-![pic11.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic11.jpg)
+![pic11.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 # Operating Instructions
 1. Make sure that the wire antenna is laid as straight as possible horizontally or vertically.
@@ -82,7 +82,7 @@ The size of the battery also affects the size of the radio. In operation, the ra
 5. The next station is searched for with the "CH+" button.
 6. When the OLED shows "Bat: weak", you should soon recharge the battery via the USB-C port.
 
-![pic1.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic1.jpg)
+![pic1.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 # References, Links and Notes
 1. [ATtiny412 Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny212-214-412-414-416-DataSheet-DS40002287A.pdf)
@@ -95,7 +95,7 @@ The size of the battery also affects the size of the radio. In operation, the ra
 8. [ATtiny85 TinyFMRadio](https://github.com/wagiminator/ATtiny85-TinyFMRadio)
 9. [128x64 OLED on Aliexpress](http://aliexpress.com/wholesale?SearchText=128+64+0.96+oled+new+4pin)
 
-![pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny412-PocketRadio/main/documentation/PocketRadio_pic3.jpg)
+![pic3.jpg](https://github.com/sp3lllz/SP3LLLZ-PocketRadio/blob/main/documentation/placeholder.jpg?raw=true)
 
 # License
 ![license.png](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)
